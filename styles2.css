@@ -1,0 +1,16 @@
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 15px;
+    font-weight: normal;
+    clear: both;
+    line-height: 1.5;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em; 
+    -webkit-margin-after: 1em; 
+    -webkit-margin-start: 0px; 
+    -webkit-margin-end: 0px; 
+    font-weight: bold; 
+}

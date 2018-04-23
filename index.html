@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>Entreprenörskap</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="reset.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <link rel="icon" href="logo.png">
+        <script src="/script.js" defer></script>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            li {
+                float: left;
+            }
+
+            li a, .dropbtn {
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover, .dropdown:hover .dropbtn {
+                background-color: red;
+            }
+
+            li.dropdown {
+                display: inline-block;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover {background-color: #f1f1f1}
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="logo.png" alt="datorreparation" />
+            <h1 class="heading">HRC Service - Datorreparation för hårdvara och mjukvara</h1>
+        </header>
+        <ul>
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="first.html">Varor</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="kontakt.html">Kontakta oss</a></li>
+        </ul>
+        <main>
+            <section class="leading">
+                <p class="leading-bigtext">HRC</p>
+                <p class="leading-text">Vårt mål är att erbjuda hjälp med datorernas hårdvara och mjukvara på ett enkelt sätt samt erbjuda ett brett utbud produkter av kvalitet.</p>
+            </section>
+      <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="h%C3%A5rddisk.jpg" alt="rum" style="width:100%">
+                    <div class="text"></div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="fiberanslutning.jpg" alt="badrum" style="width:100%">
+                    <div class="text"></div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="kostnadsf%C3%B6rslag.jpg" alt="cafe" style="width:100%">
+                    <div class="text"></div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="laptoprabatt.jpg" alt="gym" style="width:100%">
+                    <div class="text"></div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+      <section class="front-img">
+        <article>
+          <a href="service.html"><img class="article-img" src="repaircomputer.jpg" alt="Dator" /></a>
+          <h1 class="article-title">
+            DATORSERVICE
+          </h1>
+        </article>
+        <article>
+            <a href="service.html"><img class="article-img" src="Slider06.png" alt="slider06" /></a>
+          <h1 class="article-title">
+            VIRUSRENSNING
+          </h1>
+        </article>
+        <article>
+          <a href="first.html"><img class="article-img" src="stunrotepair.png" alt="rotepair" /></a>
+          <h1 class="article-title">
+            DATORER
+          </h1>
+          
+        </article>
+      </section>
+    </main>
+    <footer>
+            <p>HRC Datorservice | Föreningsgatan 41, 211 50 Malmö | 0708-705524</p>
+        </footer>
+        <script src="script2.js"></script>
+  </body>
+</html>
